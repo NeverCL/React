@@ -39,10 +39,11 @@ ReactDOM.render(<Hello>你好！</Hello>, document.getElementById('root5'))
 
 var Hello = React.createClass({
     handleClick: function () {
-        console.log('22')
+        console.log('handleClick')
     },
     render: function () {
         return <h1 onClick={this.handleClick}>Hello{this.props.children}</h1>
     }
 });
 ReactDOM.render(<Hello>你好！</Hello>, document.getElementById('root6'))
+
