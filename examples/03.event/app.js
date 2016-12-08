@@ -1,3 +1,4 @@
+
 var Hello = React.createClass({
     handleClick: function () {
         if (this.refs.tip.innerText === 'Hello')
